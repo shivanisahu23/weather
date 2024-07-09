@@ -29,14 +29,16 @@ img {
 
 .wrapper {
     display: flex;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     min-height: 900px;
     border-radius: 20px;
     overflow: hidden;
 }
 
 .sidebar {
-    width: 20%;
+    width: 100%;
+    max-width: 300px;
     min-height: 250px;
     padding: 20px;
     display: flex;
@@ -147,7 +149,7 @@ img {
     min-height: 400px;
     padding: 20px 40px;
     position: relative;
-    padding-bottom:90px;
+    padding-bottom: 90px;
     background-color: #f6f6f8;
 }
 
@@ -157,13 +159,13 @@ img {
     justify-content: space-between;
 }
 
-nav .option{
+nav .option {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.option button{
+.option button {
     border: none;
     background: transparent;
     font-size: 16px;
@@ -177,7 +179,7 @@ nav .option{
     color: var(--primary-clr);
 }
 
-nav .units button{
+nav .units button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -197,17 +199,17 @@ nav .units button{
     margin-top: 50px;
 }
 
-.cards .card{
-   width: 100px;
-   height: 130px;
-   border-radius: 20px;
-   color: #1a1a1a;
-   background-color: #fff;
-   text-align: center;
-   padding: 10px 0;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between; 
+.cards .card {
+    width: 100px;
+    height: 130px;
+    border-radius: 20px;
+    color: #1a1a1a;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card h2 {
@@ -241,7 +243,7 @@ nav .units button{
     text-transform: capitalize;
 }
 
-.highlights .card2{
+.highlights .card2 {
     width: 250px;
     height: 150px;
     border-radius: 20px;
@@ -256,7 +258,7 @@ nav .units button{
     color: #c2c2c2;
 }
 
-.card2 .content p:first-child{
+.card2 .content p:first-child {
     text-align: center;
     font-size: 30px;
 }
@@ -275,4 +277,85 @@ nav .units button{
     bottom: 30px;
     left: 50%;
     transform: translate(-50%);
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        width: 80%;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+
+    .main {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        max-width: none;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .main nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    nav .units {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .temperature .temp {
+        font-size: 50px;
+    }
+
+    .temperature span {
+        font-size: 30px;
+    }
+
+    .search input {
+        height: 30px;
+    }
+
+    .search button {
+        height: 30px;
+    }
+
+    .cards .card {
+        width: 80px;
+        height: 100px;
+    }
+
+    .highlights .card2 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .highlights .heading {
+        font-size: 18px;
+    }
 }
