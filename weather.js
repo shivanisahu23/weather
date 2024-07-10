@@ -31,7 +31,7 @@ function updateBackgroundAndIcon(description) {
     const body = document.body;
     switch(description) {
         case 'clear sky':
-            body.style.backgroundImage = "url('path/to/clear-sky.jpg')";
+            body.style.backgroundImage = "url('clearsky.jpg')";
             break;
         case 'few clouds':
             body.style.backgroundImage = "url('path/to/few-clouds.jpg')";
