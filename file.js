@@ -108,37 +108,74 @@ function updateCardIcon(day) {
 
 function updateBackgroundAndIcon(description) {
   const body = document.body;
-  switch (description) {
-    case 'clear sky':
-      body.style.backgroundImage = "url('clearsky.jpg')";
-      break;
-    case 'few clouds':
-      body.style.backgroundImage = "url('fewclouds.jpg')";
-      break;
-    case 'scattered clouds':
-      body.style.backgroundImage = "url('scattered-clouds.jpg')";
-      break;
-    case 'broken clouds':
-      body.style.backgroundImage = "url('broken.jpg')";
-      break;
-    case 'shower rain':
-      body.style.backgroundImage = "url('showerrain.jpg')";
-      break;
-    case 'rain':
-      body.style.backgroundImage = "url('rain.jpg')";
-      break;
-    case 'thunderstorm':
-      body.style.backgroundImage = "url('thunderstorm.jpg')";
-      break;
-    case 'snow':
-      body.style.backgroundImage = "url('snow.jpg')";
-      break;
-    case 'mist':
-      body.style.backgroundImage = "url('mist.jpg')";
-      break;
-    default:
-      body.style.backgroundImage = "url('default.jpg')";
-      break;
+  const normalizedDescription = description.toLowerCase().trim();
+  switch (normalizedDescription) {
+      case 'clear sky':
+          body.style.backgroundImage = "url('clearsky.jpg')";
+          break;
+      case 'few clouds':
+          body.style.backgroundImage = "url('fewclouds.jpg')";
+          break;
+      case 'scattered clouds':
+          body.style.backgroundImage = "url('scattered-clouds.jpg')";
+          break;
+      case 'broken clouds':
+          body.style.backgroundImage = "url('broken.jpg')";
+          break;
+      case 'shower rain':
+          body.style.backgroundImage = "url('showerrain.jpg')";
+          break;
+      case 'rain':
+          body.style.backgroundImage = "url('rain.jpg')";
+          break;
+      case 'thunderstorm':
+          body.style.backgroundImage = "url('thunderstorm.jpg')";
+          break;
+      case 'snow':
+          body.style.backgroundImage = "url('snow.jpg')";
+          break;
+      case 'mist':
+          body.style.backgroundImage = "url('mist.jpg')";
+          break;
+      case 'haze':
+          body.style.backgroundImage = "url('haze.jpg')";
+          break;
+      case 'fog':
+          body.style.backgroundImage = "url('fog.jpg')";
+          break;
+      case 'smoke':
+          body.style.backgroundImage = "url('smoke.jpg')";
+          break;
+      case 'dust':
+          body.style.backgroundImage = "url('dust.jpg')";
+          break;
+      case 'sand':
+          body.style.backgroundImage = "url('sand.jpg')";
+          break;
+      case 'ash':
+          body.style.backgroundImage = "url('ash.jpg')";
+          break;
+      case 'squall':
+          body.style.backgroundImage = "url('squall.jpg')";
+          break;
+      case 'tornado':
+          body.style.backgroundImage = "url('tornado.jpg')";
+          break;
+      case 'hot':
+          body.style.backgroundImage = "url('hot.jpg')";
+          break;
+      case 'cold':
+          body.style.backgroundImage = "url('cold.jpg')";
+          break;
+      case 'windy':
+          body.style.backgroundImage = "url('windy.jpg')";
+          break;
+      case 'blizzard':
+          body.style.backgroundImage = "url('blizzard.jpg')";
+          break;
+      default:
+          body.style.backgroundImage = "url('default.jpg')";
+          break;
   }
 }
 
