@@ -133,12 +133,48 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'mist':
                 body.style.backgroundImage = "url('mist.jpg')";
                 break;
+            case 'haze':
+                body.style.backgroundImage = "url('haze.jpg')";
+                break;
+            case 'fog':
+                body.style.backgroundImage = "url('fog.jpg')";
+                break;
+            case 'smoke':
+                body.style.backgroundImage = "url('smoke.jpg')";
+                break;
+            case 'dust':
+                body.style.backgroundImage = "url('dust.jpg')";
+                break;
+            case 'sand':
+                body.style.backgroundImage = "url('sand.jpg')";
+                break;
+            case 'ash':
+                body.style.backgroundImage = "url('ash.jpg')";
+                break;
+            case 'squall':
+                body.style.backgroundImage = "url('squall.jpg')";
+                break;
+            case 'tornado':
+                body.style.backgroundImage = "url('tornado.jpg')";
+                break;
+            case 'hot':
+                body.style.backgroundImage = "url('hot.jpg')";
+                break;
+            case 'cold':
+                body.style.backgroundImage = "url('cold.jpg')";
+                break;
+            case 'windy':
+                body.style.backgroundImage = "url('windy.jpg')";
+                break;
+            case 'blizzard':
+                body.style.backgroundImage = "url('blizzard.jpg')";
+                break;
             default:
                 body.style.backgroundImage = "url('default.jpg')";
                 break;
         }
     }
-
+    
     // Initial fetch for New York on page load
     fetchWeatherData('New York')
         .then(({ weatherData, uvData, airQualityData }) => {
