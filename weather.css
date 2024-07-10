@@ -44,7 +44,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.815);
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 10px;
 }
 
 .search {
@@ -80,7 +81,7 @@ img {
     border-bottom-left-radius: 5px;
     background-color: var(--primary-clr);
     font-size: 14px;
-    color: #fff;
+    color: #ffffffab;
     cursor: pointer;
 }
 
@@ -150,7 +151,8 @@ img {
     padding: 20px 40px;
     position: relative;
     padding-bottom: 90px;
-    background-color: #f6f6f8;
+    background-color: #f6f6f865;
+    border-radius: 10px;
 }
 
 .main nav {
