@@ -177,6 +177,9 @@ function updateBackgroundAndIcon(description) {
       case 'blizzard':
           body.style.backgroundImage = "url('blizzard.jpg')";
           break;
+      case 'overcast clouds':
+          body.style.backgroundImage = "url('overcast.jpg')";
+          break;
       default:
           body.style.backgroundImage = "url('default.jpg')";
           break;
