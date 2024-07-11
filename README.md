@@ -51,11 +51,11 @@ Key milestones included achieving accurate data fetching, responsive design, and
 
 Special thanks to the following contributors who have completed significant tasks for this project:
 
-- **Set up and **: [Parwati Bai](https://github.com/ParwatiBai23)
+- **Set up, css and Responsive**: [Parwati Bai](https://github.com/ParwatiBai23)
 - **html and css**: [Hemlata Yadav](https://github.com/hemlata3)
-- **Task or Feature Name**: [Vrindawati Yadav](https://github.com/vrindawati)
-- **Task or Feature Name**: [Vibha Prajapati](https://github.com/Vibha-Prajapati)
-- **Task or Feature Name**: [Shivani Sahu](https://github.com/shivanisahu23/weather.git)
+- **JavaScript functionality, committing**: [Vrindawati Yadav](https://github.com/vrindawati)
+- ** Fetch API, code check and review**: [Vibha Prajapati](https://github.com/Vibha-Prajapati)
+- **css, javascript functionality, committing**: [Shivani Sahu](https://github.com/shivanisahu23/weather.git)
 
 Your contributions are invaluable to the development of the Weather App. We appreciate your dedication and effort in making this project a success!
 
@@ -66,11 +66,11 @@ Your contributions are invaluable to the development of the Weather App. We appr
    ```sh
    git clone https://github.com/shivanisahu23/weather.git
 2. **Navigate to the project directory**
-  ``sh
-  [cd weather-app]
+   
+   cd weather-app
 3. **Open index.html in your browser**
-  ``sh
-  [open index.html]
+   
+   open index.html
 
 ## Usage
 
