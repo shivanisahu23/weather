@@ -45,7 +45,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     background-color: rgba(111, 154, 168, 0.736);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .search {
@@ -152,7 +152,7 @@ img {
     position: relative;
     padding-bottom: 90px;
     background-color: #ffffffe2;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .main nav {
