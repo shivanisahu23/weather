@@ -180,6 +180,12 @@ function updateBackgroundAndIcon(description) {
       case 'overcast clouds':
           body.style.backgroundImage = "url('overcast.jpg')";
           break;
+      case 'moderate rain':
+          body.style.backgroundImage = "url('moderaterain.jpg')";
+          break;
+      case 'light rain':
+          body.style.backgroundImage = "url('lightrain.jpg')";
+          break;
       default:
           body.style.backgroundImage = "url('default.jpg')";
           break;
