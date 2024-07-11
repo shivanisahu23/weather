@@ -57,7 +57,7 @@ Special thanks to the following contributors who have completed significant task
 - **Set up, CSS and Responsive**: [Parwati Bai](https://github.com/ParwatiBai23)
 - **HTML and CSS**: [Hemlata Yadav](https://github.com/hemlata3)
 - **JavaScript functionality, Committing**: [Vrindawati Yadav](https://github.com/vrindawati)
-- **Fetch API, Testing and Review**: [Vibha Prajapati](https://github.com/Vibha-Prajapati)
+- **Fetch API,cloning, testing and review**: [Vibha Prajapati](https://github.com/Vibha-Prajapati)
 - **CSS, JavaScript functionality, Debugging, Committing**: [Shivani Sahu](https://github.com/shivanisahu23/weather.git)
 
 Your contributions are invaluable to the development of the Weather App. We appreciate your dedication and effort in making this project a success!
